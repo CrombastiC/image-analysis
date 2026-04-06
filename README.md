@@ -15,13 +15,13 @@ This repository is designed for scenarios where you need to analyze images and m
 Install this skill collection:
 
 ```/dev/null/install.sh#L1-1
-pnpx skills add <your-account>/skills --skill='image-analysis'
+pnpx skills add CrombastiC/skills --skill='image-analysis'
 ```
 
 Or install globally:
 
 ```/dev/null/install-global.sh#L1-1
-pnpx skills add <your-account>/skills --skill='image-analysis' -g
+pnpx skills add CrombastiC/skills --skill='image-analysis' -g
 ```
 
 Learn more about the CLI at [skills](https://github.com/vercel-labs/skills).
