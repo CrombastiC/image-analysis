@@ -1,9 +1,9 @@
 ---
 name: image-analysis
-description: 识别与判断图片相关信息的通用技能。用于从图像中提取结构化事实、进行内容判断，并输出带依据与置信度的结论；同时覆盖印刷色彩管理与浏览器端大图处理工程实践。
+description: 识别与判断图片相关信息的通用技能。用于从图像中提取结构化事实、进行内容判断，并输出带依据与置信度的结论；同时覆盖印刷色彩管理、TIFF元数据解析与浏览器端大图处理工程实践。
 metadata:
   author: You
-  version: "2026.04.06"
+  version: "2026.04.08"
 ---
 
 > 该技能用于图片相关信息判断：先抽取可观察事实，再做推断，最后输出结论、置信度与依据。
@@ -13,6 +13,7 @@ metadata:
 | Topic | Description | Reference |
 |-------|-------------|-----------|
 | 图片信息判断工作流 | 标准化流程：目标定义 → 事实提取 → 假设评估 → 任务适配 → 最终决策 | [core-image-information-judgment](references/core-image-information-judgment.md) |
+| TIFF元数据解析 | TIFF文件DPI检测、CMYK判断、通道计数、透明通道检测与分辨率单位判断 | [core-tiff-metadata-parsing](references/core-tiff-metadata-parsing.md) |
 
 ## Advanced References
 
